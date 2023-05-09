@@ -63,7 +63,8 @@ const Formpage = () => {
           onClick={handleClick}
         >
           Submit
-        </button>
+        </button><br/>
+        <span style={{color: "white"}}><strong>Note: </strong>Please recheck your datas and click on submit once you submit you cannot edit.</span>
       </form>
     </div>
   );
